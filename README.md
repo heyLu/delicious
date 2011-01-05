@@ -21,7 +21,6 @@ But it's fun, anyway :)
 
 Here's the code (always first)
 
-	!!!ruby
 	describe HappilyAfter do
 		it "is a Happy Ending" do
 			true.must.be true
@@ -42,15 +41,15 @@ Here's the code (always first)
 
 Of course there should be less
 [issues](https://github.com/anapple/delicious/issues) and more fun to
-it, but for now the [testsuite](tree/spec/delicious.rb) should be longer
+it, but for now the [testsuite](delicious/tree/master/spec/delicious.rb) should be longer
 than the actual code and I should have fun with it.
 
 You're invited, too, so **join the party!**
 
 # A little bit of history
 
-So there was/is [Test::Unit](http://rubydoc.info/stdlib), and
-[MiniTest](https://github.com/seatllerb/minitest). But they just seem
+So there was/is [Test::Unit](http://rubydoc.info/stdlib/test/1.9.2), and
+[MiniTest](https://github.com/seattllerb/minitest). But they just seem
 not to match _my_ kind of way.
 So, along the way (of course not testing/spec'ing anything) I read a
 little bit about RSpec and even a little bit of Cucumber, recently, but
@@ -61,7 +60,7 @@ And I somehow tend to want to write everything just by myself and now,
 here is my little (**very** few lines) only spec testing thing.
 It's not even a `gem` by now, but it does do a few things I like:
 
-- `should` ( and `should.not` and `should.be` and `so.on)
+- `should` ( and `should.not` and `should.be` and `so.on`)
 - (almost) no requirements. (colored, yes, but that should be in
   ruby-core [1] anyway, right? :)
 - it' unfinished (I don't like that actually, but that is what it tends
